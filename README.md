@@ -1,5 +1,7 @@
 Máquina de estados finitos (FSM) que implementa um cofre digital de senha numérica, desenvolvida em SystemVerilog para FPGA. O usuário monta uma senha de 4 dígitos, um dígito por vez, usando botões para incrementar, decrementar e confirmar cada posição. Ao confirmar os quatro dígitos, o circuito compara a senha digitada com a senha correta e sinaliza o resultado por LEDs.
 
+![](diagramadeestados.jpeg)
+
 ## Visão geral
 
 - Entrada de senha **dígito a dígito** (estilo cadeado), de 0 a 9 por posição.
