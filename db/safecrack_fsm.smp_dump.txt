@@ -1,0 +1,11 @@
+
+State Machine - |safecrackpro_top|safecrackpro_fsm:fsm_inst|estado
+Name estado.ACESSO_NEGADO estado.COFRE_ABERTO estado.VERIFICAR_SENHA estado.CONFIRMA estado.INCREMENTA estado.DECREMENTA estado.AGUARDA_BOTAO estado.INICIAL 
+estado.INICIAL 0 0 0 0 0 0 0 0 
+estado.AGUARDA_BOTAO 0 0 0 0 0 0 1 1 
+estado.DECREMENTA 0 0 0 0 0 1 0 1 
+estado.INCREMENTA 0 0 0 0 1 0 0 1 
+estado.CONFIRMA 0 0 0 1 0 0 0 1 
+estado.VERIFICAR_SENHA 0 0 1 0 0 0 0 1 
+estado.COFRE_ABERTO 0 1 0 0 0 0 0 1 
+estado.ACESSO_NEGADO 1 0 0 0 0 0 0 1 

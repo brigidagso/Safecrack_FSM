@@ -1,0 +1,100 @@
+# =============================================================================
+# Pin Assignments - DE2-115 (Cyclone IV E EP4CE115F29C7)
+# Projeto: SafeCrackPro
+#
+# Mapeamento dos displays:
+#   HEX4 -> seg_pos      (índice da posição atual)
+#   HEX3 -> seg_pos4   (dígito 3 - mais significativo)
+#   HEX2 -> seg_pos3
+#   HEX1 -> seg_pos2
+#   HEX0 -> seg_pos1   (dígito 0 - menos significativo)
+#
+# Convenção do decoder bcd_to_7segment_anodo:
+#   seg[6]=a  seg[5]=b  seg[4]=c  seg[3]=d
+#   seg[2]=e  seg[1]=f  seg[0]=g
+# =============================================================================
+
+# --- Clock e Reset ---
+set_location_assignment PIN_Y2  -to clk
+set_location_assignment PIN_M23 -to rstn
+
+# --- Botões (KEY, ativo em baixo) ---
+set_location_assignment PIN_M21 -to btn[0]
+set_location_assignment PIN_N21 -to btn[1]
+set_location_assignment PIN_R24 -to btn[2]
+
+# --- HEX0 (seg_pos4 - último dígito da senha) ---
+set_location_assignment PIN_G18 -to seg_pos4[6]
+set_location_assignment PIN_F22 -to seg_pos4[5]
+set_location_assignment PIN_E17 -to seg_pos4[4]
+set_location_assignment PIN_L26 -to seg_pos4[3]
+set_location_assignment PIN_L25 -to seg_pos4[2]
+set_location_assignment PIN_J22 -to seg_pos4[1]
+set_location_assignment PIN_H22 -to seg_pos4[0]
+
+# --- HEX1 (seg_pos3) ---
+set_location_assignment PIN_M24 -to seg_pos3[6]
+set_location_assignment PIN_Y22 -to seg_pos3[5]
+set_location_assignment PIN_W21 -to seg_pos3[4]
+set_location_assignment PIN_W22 -to seg_pos3[3]
+set_location_assignment PIN_W25 -to seg_pos3[2]
+set_location_assignment PIN_U23 -to seg_pos3[1]
+set_location_assignment PIN_U24 -to seg_pos3[0]
+
+# --- HEX2 (seg_pos2) ---
+set_location_assignment PIN_AA25 -to seg_pos2[6]
+set_location_assignment PIN_AA26 -to seg_pos2[5]
+set_location_assignment PIN_Y25  -to seg_pos2[4]
+set_location_assignment PIN_W26  -to seg_pos2[3]
+set_location_assignment PIN_Y26  -to seg_pos2[2]
+set_location_assignment PIN_W27  -to seg_pos2[1]
+set_location_assignment PIN_W28  -to seg_pos2[0]
+
+# --- HEX3 (seg_pos1 - primeiro dígito da senha) ---
+set_location_assignment PIN_V21  -to seg_pos1[6]
+set_location_assignment PIN_U21  -to seg_pos1[5]
+set_location_assignment PIN_AB20 -to seg_pos1[4]
+set_location_assignment PIN_AA21 -to seg_pos1[3]
+set_location_assignment PIN_AD24 -to seg_pos1[2]
+set_location_assignment PIN_AF23 -to seg_pos1[1]
+set_location_assignment PIN_Y19  -to seg_pos1[0]
+
+# --- HEX4 (seg_cur_pos - índice da posição atual) ---
+set_location_assignment PIN_AB19 -to seg_cur_pos[6]
+set_location_assignment PIN_AA19 -to seg_cur_pos[5]
+set_location_assignment PIN_AG21 -to seg_cur_pos[4]
+set_location_assignment PIN_AH21 -to seg_cur_pos[3]
+set_location_assignment PIN_AE19 -to seg_cur_pos[2]
+set_location_assignment PIN_AF19 -to seg_cur_pos[1]
+set_location_assignment PIN_AE18 -to seg_cur_pos[0]
+
+# --- LEDR[17:0] (led_red - senha errada) ---
+set_location_assignment PIN_G19 -to led_red[0]
+set_location_assignment PIN_F19 -to led_red[1]
+set_location_assignment PIN_E19 -to led_red[2]
+set_location_assignment PIN_F21 -to led_red[3]
+set_location_assignment PIN_F18 -to led_red[4]
+set_location_assignment PIN_E18 -to led_red[5]
+set_location_assignment PIN_J19 -to led_red[6]
+set_location_assignment PIN_H19 -to led_red[7]
+set_location_assignment PIN_J17 -to led_red[8]
+set_location_assignment PIN_G17 -to led_red[9]
+set_location_assignment PIN_J15 -to led_red[10]
+set_location_assignment PIN_H16 -to led_red[11]
+set_location_assignment PIN_J16 -to led_red[12]
+set_location_assignment PIN_H17 -to led_red[13]
+set_location_assignment PIN_F15 -to led_red[14]
+set_location_assignment PIN_G15 -to led_red[15]
+set_location_assignment PIN_G16 -to led_red[16]
+set_location_assignment PIN_H15 -to led_red[17]
+
+# --- LEDG[8:0] (led_green - senha correta) ---
+set_location_assignment PIN_E21 -to led_green[0]
+set_location_assignment PIN_E22 -to led_green[1]
+set_location_assignment PIN_E25 -to led_green[2]
+set_location_assignment PIN_E24 -to led_green[3]
+set_location_assignment PIN_H21 -to led_green[4]
+set_location_assignment PIN_G20 -to led_green[5]
+set_location_assignment PIN_G22 -to led_green[6]
+set_location_assignment PIN_G21 -to led_green[7]
+set_location_assignment PIN_F17 -to led_green[8]

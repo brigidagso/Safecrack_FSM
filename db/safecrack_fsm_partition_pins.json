@@ -1,0 +1,273 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "seg_pos1[0]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_pos1[1]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_pos1[2]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_pos1[3]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_pos1[4]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_pos1[5]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_pos1[6]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_pos2[0]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_pos2[1]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_pos2[2]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_pos2[3]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_pos2[4]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_pos2[5]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_pos2[6]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_pos3[0]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_pos3[1]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_pos3[2]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_pos3[3]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_pos3[4]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_pos3[5]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_pos3[6]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_pos4[0]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_pos4[1]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_pos4[2]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_pos4[3]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_pos4[4]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_pos4[5]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_pos4[6]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_cur_pos[0]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_cur_pos[1]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_cur_pos[2]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_cur_pos[3]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_cur_pos[4]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_cur_pos[6]",
+					"strict" : false
+				},
+				{
+					"name" : "led_red[0]",
+					"strict" : false
+				},
+				{
+					"name" : "led_red[1]",
+					"strict" : false
+				},
+				{
+					"name" : "led_red[2]",
+					"strict" : false
+				},
+				{
+					"name" : "led_red[3]",
+					"strict" : false
+				},
+				{
+					"name" : "led_red[4]",
+					"strict" : false
+				},
+				{
+					"name" : "led_red[5]",
+					"strict" : false
+				},
+				{
+					"name" : "led_red[6]",
+					"strict" : false
+				},
+				{
+					"name" : "led_red[7]",
+					"strict" : false
+				},
+				{
+					"name" : "led_red[8]",
+					"strict" : false
+				},
+				{
+					"name" : "led_red[9]",
+					"strict" : false
+				},
+				{
+					"name" : "led_red[10]",
+					"strict" : false
+				},
+				{
+					"name" : "led_red[11]",
+					"strict" : false
+				},
+				{
+					"name" : "led_red[12]",
+					"strict" : false
+				},
+				{
+					"name" : "led_red[13]",
+					"strict" : false
+				},
+				{
+					"name" : "led_red[14]",
+					"strict" : false
+				},
+				{
+					"name" : "led_red[15]",
+					"strict" : false
+				},
+				{
+					"name" : "led_red[16]",
+					"strict" : false
+				},
+				{
+					"name" : "led_red[17]",
+					"strict" : false
+				},
+				{
+					"name" : "led_green[0]",
+					"strict" : false
+				},
+				{
+					"name" : "led_green[1]",
+					"strict" : false
+				},
+				{
+					"name" : "led_green[2]",
+					"strict" : false
+				},
+				{
+					"name" : "led_green[3]",
+					"strict" : false
+				},
+				{
+					"name" : "led_green[4]",
+					"strict" : false
+				},
+				{
+					"name" : "led_green[5]",
+					"strict" : false
+				},
+				{
+					"name" : "led_green[6]",
+					"strict" : false
+				},
+				{
+					"name" : "led_green[7]",
+					"strict" : false
+				},
+				{
+					"name" : "led_green[8]",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "rstn",
+					"strict" : false
+				},
+				{
+					"name" : "btn[0]",
+					"strict" : false
+				},
+				{
+					"name" : "btn[1]",
+					"strict" : false
+				},
+				{
+					"name" : "btn[2]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
